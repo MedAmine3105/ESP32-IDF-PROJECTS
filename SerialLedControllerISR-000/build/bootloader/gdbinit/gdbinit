@@ -1,0 +1,2 @@
+source /home/illina/Desktop/MyCODES/IDF-ESP32/SerialLedControllerISR-000/build/bootloader/gdbinit/symbols
+source /home/illina/Desktop/MyCODES/IDF-ESP32/SerialLedControllerISR-000/build/bootloader/gdbinit/connect
