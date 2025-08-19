@@ -1,0 +1,22 @@
+# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
+# file Copyright.txt or https://cmake.org/licensing for details.
+
+cmake_minimum_required(VERSION 3.5)
+
+file(MAKE_DIRECTORY
+  "/home/illina/esp/v5.5/esp-idf/components/bootloader/subproject"
+  "/home/illina/Desktop/MyCODES/IDF-ESP32/WiFi-UART-Debug-001/WIFI-UART-DEBUG/build/bootloader"
+  "/home/illina/Desktop/MyCODES/IDF-ESP32/WiFi-UART-Debug-001/WIFI-UART-DEBUG/build/bootloader-prefix"
+  "/home/illina/Desktop/MyCODES/IDF-ESP32/WiFi-UART-Debug-001/WIFI-UART-DEBUG/build/bootloader-prefix/tmp"
+  "/home/illina/Desktop/MyCODES/IDF-ESP32/WiFi-UART-Debug-001/WIFI-UART-DEBUG/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/illina/Desktop/MyCODES/IDF-ESP32/WiFi-UART-Debug-001/WIFI-UART-DEBUG/build/bootloader-prefix/src"
+  "/home/illina/Desktop/MyCODES/IDF-ESP32/WiFi-UART-Debug-001/WIFI-UART-DEBUG/build/bootloader-prefix/src/bootloader-stamp"
+)
+
+set(configSubDirs )
+foreach(subDir IN LISTS configSubDirs)
+    file(MAKE_DIRECTORY "/home/illina/Desktop/MyCODES/IDF-ESP32/WiFi-UART-Debug-001/WIFI-UART-DEBUG/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+endforeach()
+if(cfgdir)
+  file(MAKE_DIRECTORY "/home/illina/Desktop/MyCODES/IDF-ESP32/WiFi-UART-Debug-001/WIFI-UART-DEBUG/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+endif()

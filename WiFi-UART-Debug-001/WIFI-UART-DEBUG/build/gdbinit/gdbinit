@@ -1,0 +1,2 @@
+source /home/illina/Desktop/MyCODES/IDF-ESP32/WiFi-UART-Debug-001/WIFI-UART-DEBUG/build/gdbinit/symbols
+source /home/illina/Desktop/MyCODES/IDF-ESP32/WiFi-UART-Debug-001/WIFI-UART-DEBUG/build/gdbinit/connect
