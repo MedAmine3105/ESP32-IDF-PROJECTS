@@ -53,11 +53,14 @@
       } 
       else if (event_base == WIFI_EVENT && event_id == WIFI_EVENT_STA_DISCONNECTED) 
       {
-          if (s_retry_num < 5) {
+          if (s_retry_num < 5) 
+          {
               esp_wifi_connect();
               s_retry_num++;
               ESP_LOGI(TAG, "Retrying to connect...");
-          } else {
+          } 
+          else 
+          {
               xEventGroupSetBits(s_wifi_event_group, WIFI_FAIL_BIT);
               gpio_set_level(LED_PIN, 0); // Turn LED off
           }

@@ -1,0 +1,2 @@
+source /home/illina/Desktop/MyCODES/IDF-ESP32/WIFI-SCAN-002/build/bootloader/gdbinit/symbols
+source /home/illina/Desktop/MyCODES/IDF-ESP32/WIFI-SCAN-002/build/bootloader/gdbinit/connect
