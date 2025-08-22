@@ -1,0 +1,2 @@
+source /home/illina/Desktop/MyCODES/IDF-ESP32/ESP32-TCP-CLIENT-003/build/gdbinit/symbols
+source /home/illina/Desktop/MyCODES/IDF-ESP32/ESP32-TCP-CLIENT-003/build/gdbinit/connect
